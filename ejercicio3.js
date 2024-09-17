@@ -12,7 +12,7 @@
 // console.log(usersName);
 
 
-// 3.1 Dado el siguiente array, devuelve una lista que contenga los valores de la propiedad .name y cambia el nombre a 'Anacleto' en caso de que empiece por 'A'.
+// 3.1 
 
 const users = [
 	{id: 1, name: 'Abel'},
