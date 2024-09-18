@@ -8,15 +8,11 @@ const streamers = [
 
 const input = document.querySelector("input");
 
-const lowerCase = streamers.map(streamers => streamers.name.toLowerCase())
-
-
- input.addEventListener("input", () => {
-   const streamerFilter = lowerCase.filter((streamer) =>
+input.addEventListener("input", () => {
+  const lowerCase = streamers.map((streamers) => streamers.name.toLowerCase());
+  const streamerFilter = lowerCase.filter((streamer) =>
     streamer.includes(input.value)
   );
 
-   //   [const {name,b,c} ]= streamerFilter
-
-   console.log(streamerFilter);
- });
+  console.log(streamerFilter);
+});
